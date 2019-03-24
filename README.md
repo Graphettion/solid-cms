@@ -17,5 +17,3 @@ Solid CMS uses the following:
 * [Composer](https://getcomposer.org/) - PHP Package Manager
 * [RollupJS](https://rollupjs.org/guide/en) - Node Package Bundler
 * [TypeScript](https://www.typescriptlang.org/) - JavaScript with Types
-
-test
