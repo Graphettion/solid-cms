@@ -12,7 +12,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title><?php page_title(); ?> | <?php site_name(); ?></title>
+	<title><?php echo page_title(); ?> | <?php echo site_name(); ?></title>
   <link href="/dist/style.min.css" rel="stylesheet" type="text/css" /> 
 </head>
 
@@ -29,7 +29,7 @@
 	<section>
 		<article>
 			<header>
-        <h2><?php page_title(); ?></h2>
+        <h2><?php echo page_title(); ?></h2>
 			</header>
 			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
       <p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
@@ -50,7 +50,7 @@
 	</aside>
 
 	<footer>
-    <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?> <?php site_version(); ?></small>
+    <small>&copy;<?php echo date('Y'); ?> <?php echo site_name(); ?> <?php echo site_version(); ?></small>
 	</footer>
 </body>
 </html>

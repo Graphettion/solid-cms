@@ -5,7 +5,7 @@
  */
 
 function site_name() {
-    echo config('name');
+    return config('name');
 }
 
 /**
@@ -15,8 +15,8 @@ function site_name() {
  */
 
 function page_title() {
-    $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : 'Home';
-    echo ucwords(str_replace('-', ' ', $page));
+    $page = isset($_GET['page']) ? htmlspecialchars($_GET['page'], ENT_QUOTES, "utf8") : 'Home';
+    return ucwords(str_replace('-', ' ', $page));
 }
 
 /**
@@ -30,14 +30,14 @@ function page_content() {
     if (! file_exists($path)) {
         $path = getcwd() . '/' . config('content_path') . '/404.phtml';
     }
-    echo file_get_contents($path);
+    return file_get_contents($path);
 }
 
 /**
  * Displays site version.
  */
 function site_version() {
-  echo config('version');
+  return config('version');
 }
 
 /**
