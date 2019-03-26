@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "strict": true,
+    "lib": ["dom", "es2015", "es2016"],
+    "target": "es5",
+    "outDir": "dist/js",
+    "baseUrl": ".",
+    "typeRoots": [
+      "node_modules/@types",
+    ]
+  },
+  "include": [
+    "src/*", "src/scripts/app.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

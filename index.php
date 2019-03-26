@@ -13,7 +13,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title><?php echo page_title(); ?> | <?php echo site_name(); ?></title>
-  <link href="/dist/style.min.css" rel="stylesheet" type="text/css" /> 
+  <link href="dist/css/style.min.css" rel="stylesheet" type="text/css" /> 
 </head>
 
 <body>
@@ -52,5 +52,7 @@
 	<footer>
     <small>&copy;<?php echo date('Y'); ?> <?php echo site_name(); ?> <?php echo site_version(); ?></small>
 	</footer>
+
+  <script src="dist/js/scripts.min.js"></script>
 </body>
 </html>

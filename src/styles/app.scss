@@ -1,0 +1,12 @@
+/* Dark Theme */
+$theme-bg: #303030;
+$theme-color: #fff;
+
+html {
+  background: $theme-bg;
+  color: $theme-color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
