@@ -44,7 +44,7 @@ function site_version() {
  * Intializes theme
  */
 function init() {
-    include config('theme_path') . '/theme.php';
+    include config('theme_path') . 'app/views/dashboard/index.php';
 }
 
 ?>

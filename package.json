@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "ts": "node_modules/.bin/babel src/scripts/app.ts --out-file dist/js/scripts.min.js",
+    "ts": "tsc && babel src/scripts/app.ts --out-file dist/js/scripts.min.js",
     "css": "node-sass src/styles/app.scss dist/css/style.min.css --output-style compressed"
   },
   "repository": {
