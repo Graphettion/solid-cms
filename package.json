@@ -8,8 +8,8 @@
     "test": "tests"
   },
   "scripts": {
-    "rollup": "node_modules/.bin/rollup -c",
-    "scss": "node-sass src/styles/app.scss dist/css/style.min.css --output-style compressed"
+    "ts": "node_modules/.bin/babel src/scripts/app.ts --out-file dist/js/scripts.min.js",
+    "css": "node-sass src/styles/app.scss dist/css/style.min.css --output-style compressed"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,12 @@
   },
   "homepage": "https://github.com/Graphettion/solid-cms#readme",
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-preset-minify": "^0.5.0",
     "node-sass": "^4.11.0",
-    "rollup": "^1.7.3",
-    "rollup-plugin-typescript": "^1.0.1",
-    "rollup-plugin-uglify": "^6.0.2",
     "tslib": "^1.9.3",
     "typescript": "^3.3.4000"
   }
