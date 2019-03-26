@@ -15,7 +15,6 @@ Solid CMS uses the following:
 
 * [PHP](https://php.net/) - Back-end language
 * [Composer](https://getcomposer.org/) - PHP Package Manager
-* [RollupJS](https://rollupjs.org/guide/en) - Node Package Bundler
+* [Babel](https://babeljs.io/) - Compile JavaScript
 * [TypeScript](https://www.typescriptlang.org/) - JavaScript with Types
-
-test
+* [NodeSass](https://github.com/sass/node-sass) - Compile SCSS
