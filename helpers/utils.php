@@ -1,5 +1,7 @@
 <?php
 
+  include "../app/config.php";
+
 /**
  * Displays site name
  */
@@ -34,17 +36,17 @@ function page_content() {
 }
 
 /**
- * Displays site version.
+ * Displays site version
  */
 function site_version() {
   return config('version');
 }
 
 /**
- * Intializes theme
+ * Intializes app
  */
 function init() {
-    include config('theme_path') . 'app/views/dashboard/index.php';
+    include config('views');
 }
 
 ?>
