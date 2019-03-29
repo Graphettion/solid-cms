@@ -9,7 +9,8 @@
   },
   "scripts": {
     "ts": "tsc && babel src/scripts/app.ts --out-file dist/js/scripts.min.js",
-    "css": "node-sass src/styles/app.scss dist/css/style.min.css --output-style compressed"
+    "css": "node-sass src/styles/app.scss dist/css/style.min.css --output-style compressed",
+    "bdd": "node_modules/.bin/cucumber-js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-typescript": "^7.3.3",
     "babel-preset-minify": "^0.5.0",
+    "cucumber": "^5.1.0",
     "node-sass": "^4.11.0",
     "tslib": "^1.9.3",
     "typescript": "^3.3.4000"
