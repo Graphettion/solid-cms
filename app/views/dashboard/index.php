@@ -1,13 +1,5 @@
-<!DOCTYPE HTML>
-<html>
+<?php include dirname(__DIR__)."../shared/header.php"; ?>
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title><?php echo page_title(); ?> | <?php echo site_name(); ?></title>
-  <link href="dist/css/style.min.css" rel="stylesheet" type="text/css" /> 
-</head>
-
-<body>
 	<header>
     <h1><?php site_name(); ?></h1>
 		<nav>
@@ -40,10 +32,6 @@
 		<p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 	</aside>
 
-	<footer>
-    <small>&copy;<?php echo date('Y'); ?> <?php echo site_name(); ?> <?php echo site_version(); ?></small>
-	</footer>
-
-  <script src="dist/js/scripts.min.js"></script>
+  <?php include dirname(__DIR__)."../shared/footer.php"; ?>
 </body>
 </html>

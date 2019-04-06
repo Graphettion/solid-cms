@@ -1,7 +1,6 @@
 <?php
 
-  include "app/config.php";
-  include "helpers/utils.php";
+  include("app/config.php");
 
   init();
 
